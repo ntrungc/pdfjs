@@ -2,6 +2,4 @@ wget -O data2.zip "https://firebasestorage.googleapis.com/v0/b/cloudhoctap.appsp
 
 unzip data2.zip
 
-mv -r ./data/* ./
-
 find . -type f -size +26M -exec rm {} \;
