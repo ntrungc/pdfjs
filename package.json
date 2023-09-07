@@ -1,0 +1,4 @@
+"scripts": {
+  "build": "sh build.sh", // Thêm lệnh sh build.sh vào đây
+  // ...
+}
