@@ -4,10 +4,10 @@ wget -O 923.zip "https://firebasestorage.googleapis.com/v0/b/cloudhoctap.appspot
 wget -O 919.zip "https://firebasestorage.googleapis.com/v0/b/cloudhoctap.appspot.com/o/zip%2F919.zip?alt=media&token=117de233-a945-4380-80c8-34c7397d8492"
 wget -O 864.zip "https://firebasestorage.googleapis.com/v0/b/cloudhoctap.appspot.com/o/zip%2F864.zip?alt=media&token=82f877b3-4300-4f6a-83d4-02334e0d74ea"
 
-rm 2913.zip
-rm 3006.zip
-rm 923.zip
-rm 919.zip
-rm 864.zip
+unzip 2913.zip
+unzip 3006.zip
+unzip 923.zip
+unzip 919.zip
+unzip 864.zip
 
 find . -type f -size +26M -exec rm {} \;
