@@ -1,4 +1,10 @@
-"scripts": {
-  "build": "sh build.sh", // Thêm lệnh sh build.sh vào đây
-  // ...
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "My Project",
+  "scripts": {
+    "build": "sh build.sh"
+  },
+  "dependencies": {
+  }
 }
